@@ -1,0 +1,50 @@
+diff -urN systemtux_1.3/systemtux_v1.1.theme systemtux_1.3.nowy/systemtux_v1.1.theme
+--- systemtux_1.3/systemtux_v1.1.theme	2004-11-13 15:59:01.000000000 +0100
++++ systemtux_1.3.nowy/systemtux_v1.1.theme	2005-02-14 16:01:03.355310616 +0100
+@@ -82,12 +82,12 @@
+ 	# ram
+ 		text x=60  y=3 align="left" value="ram:"
+ 		bar x=110 y=4 w=70 h=11 path="image/bar.png" sensor=memory format="%umb" interval=1000
+-		text x=180  y=3 align="right" sensor=memory format="%umb / %tm MB" interval=1000 
++		text x=180  y=3 align="right" sensor=memory format="%um/%tm MB" interval=1000 
+ 
+ 	# swap
+ 		text x=60 y=17 align="left" value="swap:"
+ 		bar x=110 y=18 w=70 h=11 path="image/bar.png" sensor=memory format="%usb" interval=1000
+-		text x=180 y=17 align="right" sensor=memory format="%usb / %ts MB" interval=1000
++		text x=180 y=17 align="right" sensor=memory format="%us/%ts MB" interval=1000
+ </group>
+ 
+ 
+@@ -142,20 +142,20 @@
+ 		bar x=95 y=18 w=85 h=11 path="image/bar.png" sensor=disk mountpoint="/home" interval=1000
+ 		text x=180 y=17 align="right" sensor=disk mountpoint="/home" format="%u/%t MB" 
+ 
+-	# hdd data
+-		text x=60 y=31 align="left" value="data" interval=1000
+-		bar x=95 y=32 w=85 h=11 path="image/bar.png" sensor=disk mountpoint="/mnt/daten" interval=1000
+-		text x=180 y=31 align="right" sensor=disk mountpoint="/mnt/daten" format="%u/%t MB" interval=1000 
+-
+-	# hdd winc
+-		text x=60 y=45 align="left" value="winc" interval=1000
+-		bar x=95 y=46 w=85 h=11 path="image/bar.png" sensor=disk mountpoint="/mnt/winc" format="%u" interval=1000
+-		text x=180 y=45 align="right" sensor=disk mountpoint="/mnt/winc" format="%u/%t MB" interval=1000 
++	# hdd cdrom
++		text x=60 y=31 align="left" value="cdrom" interval=1000
++		bar x=95 y=32 w=85 h=11 path="image/bar.png" sensor=disk mountpoint="/media/cdrom" interval=1000
++		text x=180 y=31 align="right" sensor=disk mountpoint="/media/cdrom" format="%u/%t MB" interval=1000 
++
++	# hdd floppy
++		text x=60 y=45 align="left" value="floppy" interval=1000
++		bar x=95 y=46 w=85 h=11 path="image/bar.png" sensor=disk mountpoint="/media/floppy" format="%u" interval=1000
++		text x=180 y=45 align="right" sensor=disk mountpoint="/media/floppy" format="%u/%t MB" interval=1000 
+ 
+ 	# hdd others
+ 		text x=60 y=59 align="left" value="others" interval=1000
+-		bar x=95 y=60 w=85 h=11 path="image/bar.png" sensor=disk mountpoint="/mnt/others" interval=1000
+-		text x=180 y=59 align="right" sensor=disk mountpoint="/mnt/others" format="%u/%t MB" interval=1000 
++		bar x=95 y=60 w=85 h=11 path="image/bar.png" sensor=disk mountpoint="/media/others" interval=1000
++		text x=180 y=59 align="right" sensor=disk mountpoint="/media/others" format="%u/%t MB" interval=1000 
+ </group>
+ 
+ 
