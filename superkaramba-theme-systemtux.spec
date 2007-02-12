@@ -1,7 +1,7 @@
 %define		theme	systemtux
 
 Summary:	superkaramba - Systemtux theme
-Summary(pl):	superkaramba - motyw Systemtux
+Summary(pl.UTF-8):   superkaramba - motyw Systemtux
 Name:		superkaramba-theme-%{theme}
 Version:	1.3
 Release:	1
@@ -28,16 +28,16 @@ Systemtux theme for superkaramba. Features:
 - Kernel Version Output
 - Architecture Output
 
-%description -l pl
-Motyw systemtux do superkaramby. Wy¶wietlane informacje:
+%description -l pl.UTF-8
+Motyw systemtux do superkaramby. WyÅ›wietlane informacje:
 - Czas / Data
-- Model procesora / Prêdko¶æ zegara
+- Model procesora / PrÄ™dkoÅ›Ä‡ zegara
 - Statystyki wykorzystania procesora
-- Wykorzystanie pamiêci RAM / pliku wymiany SWAP
+- Wykorzystanie pamiÄ™ci RAM / pliku wymiany SWAP
 - Monitor ruchu sieciowego
 - Adres IP
 - Monitor dysku twardego
-- Przyciski XMMS - Poprzedni, Odtwarzaj, Stop, Pauza i Nastêpny
+- Przyciski XMMS - Poprzedni, Odtwarzaj, Stop, Pauza i NastÄ™pny
 - Wersja kernela
 - Architektura komputera
 
