@@ -1,7 +1,7 @@
 %define		theme	systemtux
 
 Summary:	superkaramba - Systemtux theme
-Summary(pl.UTF-8):   superkaramba - motyw Systemtux
+Summary(pl.UTF-8):	superkaramba - motyw Systemtux
 Name:		superkaramba-theme-%{theme}
 Version:	1.3
 Release:	1
